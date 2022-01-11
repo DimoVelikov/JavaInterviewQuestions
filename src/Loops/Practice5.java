@@ -1,0 +1,24 @@
+package Loops;
+
+import java.util.Scanner;
+
+public class Practice5 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter first number:");
+        int num1 = scan.nextInt();
+        System.out.println("Enter second number:");
+        int num2 = scan.nextInt();
+        int sum= 1;
+
+
+        for(int i =1; i<=num2; i++ ){
+            sum = sum *num1;
+
+            System.out.println(sum);
+
+        }
+
+
+    }
+}
